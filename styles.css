@@ -1,0 +1,264 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff;
+}
+.main-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e9ecef;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.icon-link .icon-globe,
+.icon-link .icon-twitter {
+  margin-right: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 360px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.logo-section {
+  flex: 1;
+  text-align: center;
+}
+
+.tagline {
+  color: #999;
+  font-size: 16px;
+}
+
+.news-container {
+  flex: 1;
+  border-left: 5px solid #007bff;
+  padding-left: 20px;
+}
+
+.news-title {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item .date {
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.news-item .title {
+  color: #007bff;
+  margin: 0;
+}
+
+.parent {
+  flex: 1;
+  text-align: center;
+}
+
+.download {
+  display: inline-block;
+}
+
+.android {
+  background-image: url(https://telegram.org/img/SiteIconAndroid.svg);
+  display: inline-block;
+  vertical-align: text-top;
+  width: 25px;
+  height: 27px;
+  background: 0 0 no-repeat;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+.ios {
+  background-image: url(https://telegram.org/img/SiteIconApple.svg);
+  display: inline-block;
+  vertical-align: text-top;
+  width: 25px;
+  height: 27px;
+  background: 0 0 no-repeat;
+  margin-right: 10px;
+  margin-top: -8px;
+}
+
+.cardsdownload {
+  margin-top: 60px;
+  text-align: center;
+  color: #0088cc;
+  justify-content: center;
+}
+
+.cardsdownload:hover {
+  text-decoration: underline;
+}
+
+.desktop {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.post {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #0088cc;
+}
+
+.posts {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.blog {
+  display: inline-block;
+  width: 45%; /* Adjust the width as needed */
+  margin: 2%;
+  vertical-align: top;
+  margin-left: 10%;
+}
+
+.blog h3 {
+  color: #0088cc; /* Optional: Style the title */
+  font-size: 18px; /* Font size for the title */
+  margin: 10px 0; /* Margin for the title */
+}
+
+.blog p {
+  color: black; /* Optional: Style the text */
+  font-size: 14px; /* Font size for the text */
+  margin: 10px 0; /* Margin for the text */
+}
+
+.blog_date {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #888;
+  padding: 0 15px;
+  font-size: 12px; /* Font size for the date */
+  text-align: left; /* Align the date to the left */
+}
+
+.emoji_Tele h2 {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-top: 1px solid #e9ecef;
+  font-family: Arial, sans-serif;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.footer .block {
+  width: 18%;
+}
+
+.footer h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
